@@ -110,7 +110,7 @@ from superstore
 group by region
 having avg_discount > 0.1;
 
--- Q.10 Which cities have more than 100 orders but total profit is negative
+-- Q.10 Which cities have more than 5 orders but total profit is negative
 
 select * from superstore;
 
@@ -190,6 +190,7 @@ and total_profit < 0;
  
  
  
+
 
 
 
